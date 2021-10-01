@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Autenticacion = () => {
+const Template1 = () => {
    return <div>Autenticacion</div>
 };
 
-export default Autenticacion;
+export default Template1;
