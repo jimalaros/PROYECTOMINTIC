@@ -1,14 +1,16 @@
 import React from 'react'
-import Header from 'components/Header';
-import Footer from 'components/Footer';
+import CardMenu from 'components/CardMenu';
+import hamburguesa from 'media/hamburguesa.png';
+import pizza from '../media/pizza.png';
 
 const index = () => {
     return (
-       <div>
-        <Header/>
-        
-        <Footer/>
-       </div>
+    <div>
+        <ul className='breedCard'>
+            <CardMenu nombre='hamburguesa' imagen={hamburguesa}/>
+            <CardMenu nombre='pizza' imagen={pizza}/>
+        </ul>
+    </div>
     )
 };
 

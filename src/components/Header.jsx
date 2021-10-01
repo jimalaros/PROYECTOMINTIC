@@ -5,7 +5,7 @@ const Header = () => {
     <header>
       <ul className='header1'>
         <li>
-          <img src={logo} alt='imagen' className='logo' />
+          <img src={logo} alt='imagen' className='logo' width="50%\9"/>
         </li>
         <li>
           <button className='botonGenerico mainButton'>Nuevo post</button>
