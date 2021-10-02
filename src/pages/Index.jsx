@@ -10,6 +10,7 @@ import pinchos from 'media/pinchos.png';
 import empanada from 'media/empanada.png';
 import tacos from 'media/tacos.png';
 import salchipapa from 'media/salchipapa.png';
+import fondomenu from 'media/fondomenu.png'
 
 
 
@@ -34,20 +35,23 @@ const index = () => {
 
 
         </ul><section>
-                    <h1>Elige y disfruta</h1>
+        <h1>Elige y disfruta</h1>
+            <div class= "menuContainerbg" imagen={fondomenu}>
+                    
                     <ul className='breedCardContainer'>
 
-                        <CardMenu nombre='Hamburguesa doble' imagen={hamburguesa} />
-                        <CardMenu nombre='Pizza mediana' imagen={pizza} />
-                        <CardMenu nombre='Burro especial' imagen={burro} />
-                        <CardMenu nombre='Sandwich mixto' imagen={sandwich} />
-                        <CardMenu nombre='Nuggets combo' imagen={nuggets} />
-                        <CardMenu nombre='Pinchos combo' imagen={pinchos} />
-                        <CardMenu nombre='Empanada combo' imagen={empanada} />
-                        <CardMenu nombre='Tacos x5' imagen={tacos} />
-                        <CardMenu nombre='Salchipapas' imagen={salchipapa} />
+                        <CardMenu nombre='Hamburguesa doble' imagen={hamburguesa} precio='$12.000' />
+                        <CardMenu nombre='Pizza mediana' imagen={pizza} precio='$25.000' />
+                        <CardMenu nombre='Burro especial' imagen={burro} precio='$10.500' />
+                        <CardMenu nombre='Sandwich mixto' imagen={sandwich} precio='$11.000' />
+                        <CardMenu nombre='Nuggets combo' imagen={nuggets} precio='$16.500' />
+                        <CardMenu nombre='Pinchos combo' imagen={pinchos} precio='$15.000'/>
+                        <CardMenu nombre='Empanada combo' imagen={empanada} precio='$12.000'/>
+                        <CardMenu nombre='Tacos x5' imagen={tacos} precio='$18.000' />
+                        <CardMenu nombre='Salchipapas' imagen={salchipapa} precio='$11.000' />
 
                     </ul>
+            </div>
                 </section></></>
     )
 };

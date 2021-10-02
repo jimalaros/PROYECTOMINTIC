@@ -102,7 +102,7 @@ ul {
 
 .breedCard {
   margin: 10px;
-  background-color: rgb(78, 78, 90);
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
 }
 
@@ -112,6 +112,7 @@ ul {
   margin:auto;
   font-weight: bold;
   font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
 
@@ -138,6 +139,9 @@ ul {
   }
 
 
+
+
+
 .contenedorImagen > img {
   object-fit: cover;
   width: 100%;
@@ -145,17 +149,25 @@ ul {
   border-top-left-radius: 10px;
 }
 
-.backGroundRojo {
-  background-color: red;
-}
-.backGroundVerde {
-  background-color: green;
-}
 
 h1 {
   text-align: center;
 }
 
 
+
+h3 {
+  color: rgb(216, 102, 63);
+  box-align: center;
+  margin:auto;
+  font-weight: bold;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+
+}
+
+
+ 
 /*# sourceMappingURL=bootstrap.css.map */
 
