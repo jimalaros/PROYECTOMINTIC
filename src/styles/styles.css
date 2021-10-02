@@ -108,10 +108,11 @@ ul {
 
 .breedTitle {
   color: rgb(0, 0, 0);
-  text-align: center;
-  margin: 10px;
+  box-align: center;
+  margin:auto;
   font-weight: bold;
   font-size: x-large;
+  text-align: center;
 }
 
 .contenedorImagen {

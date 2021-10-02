@@ -37,15 +37,15 @@ const index = () => {
                     <h1>Elige y disfruta</h1>
                     <ul className='breedCardContainer'>
 
-                        <CardMenu nombre='Hamburguesa' imagen={hamburguesa} />
-                        <CardMenu nombre='pizza' imagen={pizza} />
-                        <CardMenu nombre='burro' imagen={burro} />
-                        <CardMenu nombre='sandwich' imagen={sandwich} />
-                        <CardMenu nombre='nuggets' imagen={nuggets} />
-                        <CardMenu nombre='pinchos' imagen={pinchos} />
-                        <CardMenu nombre='empanada' imagen={empanada} />
-                        <CardMenu nombre='tacos' imagen={tacos} />
-                        <CardMenu nombre='salchipapa' imagen={salchipapa} />
+                        <CardMenu nombre='Hamburguesa doble' imagen={hamburguesa} />
+                        <CardMenu nombre='Pizza mediana' imagen={pizza} />
+                        <CardMenu nombre='Burro especial' imagen={burro} />
+                        <CardMenu nombre='Sandwich mixto' imagen={sandwich} />
+                        <CardMenu nombre='Nuggets combo' imagen={nuggets} />
+                        <CardMenu nombre='Pinchos combo' imagen={pinchos} />
+                        <CardMenu nombre='Empanada combo' imagen={empanada} />
+                        <CardMenu nombre='Tacos x5' imagen={tacos} />
+                        <CardMenu nombre='Salchipapas' imagen={salchipapa} />
 
                     </ul>
                 </section></></>
