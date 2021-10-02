@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 
-function CardMenu({ nombre, imagen, precio }) {
+function CardMenu({ nombre, imagen, precio, botoncompra }) {
   return (
     <li className='breedCard'>
       <Link to='/rhodesian'>
@@ -13,8 +13,10 @@ function CardMenu({ nombre, imagen, precio }) {
         <span className='breedTitle'>{nombre}</span>
            <h3>  {precio} </h3>
         </div>
-     
-     
+
+        <li>
+          <button className='secondaryButton'> <img src={botoncompra} alt='Comprar'/> </button>
+        </li>
 
     </li>
   );
