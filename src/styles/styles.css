@@ -8,6 +8,18 @@ ul {
   margin: 0px;
 }
 
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .mainContainer {
   display: flex;
   flex-direction: column;
@@ -98,11 +110,15 @@ ul {
 .breedCardContainer {
   display: flex;
   flex-wrap: wrap;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+
 }
 
 .breedCard {
   margin: 10px;
-  background-color: rgb(255, 255, 255);
+  
   border-radius: 10px;
 }
 
@@ -114,11 +130,12 @@ ul {
   font-size: x-large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  width: 200;
 }
 
 .contenedorImagen {
   width: 480px;
-  height: 300px;
+  height: 250px;
   display: cover;
   align-content: center;
   margin-bottom: 10px;
@@ -131,14 +148,22 @@ ul {
 }
 
 .Slidehome {
-  width: 1580px;
-  height: 1020px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
     
   }
 
+  .menuContainerbg {
+    position: relative;
+  }
 
+.fondoImagen {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -10;
+}
 
 
 

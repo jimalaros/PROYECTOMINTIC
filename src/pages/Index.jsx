@@ -10,13 +10,14 @@ import pinchos from 'media/pinchos.png';
 import empanada from 'media/empanada.png';
 import tacos from 'media/tacos.png';
 import salchipapa from 'media/salchipapa.png';
-import fondomenu from 'media/fondomenu.png'
+import fondomenu from 'media/fondomenu.png';
+import titulomenu from 'media/titulomenu.png';
 
 
 
 const index = () => {
     return (
-        <><div className Slidehome>
+        <><div className= 'Slidehome'>
             <img src={Slidehome} alt='imagen'  className='Slidehome'  />
         </div><>
         
@@ -24,23 +25,21 @@ const index = () => {
         <ul className='header1'>
             
 
-            <li>
-                <div className='buscar'>
-                    <input placeholder='Buscar' />
-                    <i className='fas fa-search botonGenerico iconoBusqueda'></i>
-                </div>
-            </li>
-            
+          
+        </ul><section className='containerStyle'>
+        
+        <img src={titulomenu} alt="titulomenu" />
 
+            <div class= "menuContainerbg" style={{
+                backgroundImage:`url(${fondomenu})`,
+                backgroundSize:'cover'
 
+            }} >
 
-        </ul><section>
-        <h1>Elige y disfruta</h1>
-            <div class= "menuContainerbg" imagen={fondomenu}>
-                    
-                    <ul className='breedCardContainer'>
+             
+                    <ul className='breedCardContainer breedTitle'>
 
-                        <CardMenu nombre='Hamburguesa doble' imagen={hamburguesa} precio='$12.000' />
+                        <CardMenu nombre='Hamburguesa doble' imagen={hamburguesa} precio='$12.000'  />
                         <CardMenu nombre='Pizza mediana' imagen={pizza} precio='$25.000' />
                         <CardMenu nombre='Burro especial' imagen={burro} precio='$10.500' />
                         <CardMenu nombre='Sandwich mixto' imagen={sandwich} precio='$11.000' />
@@ -51,6 +50,8 @@ const index = () => {
                         <CardMenu nombre='Salchipapas' imagen={salchipapa} precio='$11.000' />
 
                     </ul>
+
+                    {/*<div className='fondoImagen'> <img src={fondomenu} alt="fondomenu" />  </div>*/}
             </div>
                 </section></></>
     )
