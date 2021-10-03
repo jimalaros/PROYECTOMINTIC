@@ -35,7 +35,7 @@ function App() {
         <Route path= {['/Login', '/Registro']}>
           <Template1>
             <Switch>
-              <Route path='/login'>
+              <Route path='/Login'>
                  <Login/>
               </Route>
               <Route path='/registro'>
