@@ -23,13 +23,13 @@ const Login = () => {
                                 <input type="button" className='btn btn-primary' Value='Iniciar Sesion'/>
                             </div>
                             <div className="my-3 ">
-                                <span>No tienes cuenta? <a href="#">Registrate</a></span>
+                                <span >No tienes cuenta? <a href="#" className='text-secondary'>Registrate</a></span>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div className='text-end'>
-                    <img className='' src={fondo} alt="fondo" width='245px' />
+                    <img className='' src={fondo} alt="fondo" width='20%' />
                 </div>
             </div>
         </div>
