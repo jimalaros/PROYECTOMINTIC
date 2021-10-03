@@ -1,6 +1,6 @@
 import React from 'react'
 import fondo from 'media/logo.png'
-import fondo2 from 'media/fondomenu.png'
+import google from 'media/google.png'
 import 'styles/Login.css'
 
 const Login = () => {
@@ -21,6 +21,18 @@ const Login = () => {
                             </div >
                             <div className='d-grid mb-4'>
                                 <input type="button" className='btn btn-primary' Value='Iniciar Sesion'/>
+                            </div>
+                            <div>
+                                <button className='btn btn-outline-danger w-100 my-1'>
+                                    <div className='row align-items-center'>
+                                        <div className='col-2'>
+                                            <img src={google} alt="" width='32'/>
+                                        </div>
+                                        <div className='col-10 text-center'>
+                                            Google
+                                        </div>
+                                    </div>
+                                </button>
                             </div>
                             <div className="my-3 ">
                                 <span >No tienes cuenta? <a href="#" className='text-secondary'>Registrate</a></span>
