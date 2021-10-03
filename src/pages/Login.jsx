@@ -22,13 +22,14 @@ const Login = () => {
                             <div className='d-grid mb-4'>
                                 <input type="button" className='btn btn-primary' Value='Iniciar Sesion'/>
                             </div>
-                            <div>
+                        </form>
+                        <div>
                                 <button className='btn btn-outline-danger w-100 my-1'>
                                     <div className='row align-items-center'>
                                         <div className='col-2'>
                                             <img src={google} alt="" width='32'/>
                                         </div>
-                                        <div className='col-10 text-center'>
+                                        <div className='col-10 text-right'>
                                             Google
                                         </div>
                                     </div>
@@ -37,7 +38,6 @@ const Login = () => {
                             <div className="my-3 ">
                                 <span >No tienes cuenta? <a href="#" className='text-secondary'>Registrate</a></span>
                             </div>
-                        </form>
                     </div>
                 </div>
                 <div className='text-end'>
