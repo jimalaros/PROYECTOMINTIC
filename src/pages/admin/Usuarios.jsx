@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const Usuarios = () => {
+const Usuarios = ({children}) => {
     return (
         <div>
-            
+        <main>Esta es la página de administración de Usuarios</main>
         </div>
     )
 }
 
-export default Usuarios
+export default Usuarios;
+

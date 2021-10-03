@@ -1,0 +1,25 @@
+.flex {
+    display: flex;
+}
+
+a:hover {
+    text-decoration: none;
+    text-align: center;
+}
+
+#sidebar {
+    min-height: 100vh;
+    }
+
+#sidebar .menu {
+    width: 10rem;
+    text-align: center;    
+}
+
+#content {
+    overflow-y: auto;
+    height: 100vh;
+    padding: 3rem;
+    background-color: #ffe100;
+    background: linear-gradient(to right, #ffe100, #edbf00 );
+}

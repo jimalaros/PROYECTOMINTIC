@@ -21,13 +21,13 @@ function App() {
           <Template2>
             <Switch>
               <Route path = '/admin/Usuarios'>
-               <Usuarios/>
+              <Usuarios/>
               </Route>
               <Route path = '/admin/Ventas'>
-               <Ventas/>
+              <Ventas/>
               </Route>
               <Route path='/admin'>
-                 <Admin/>
+              <Admin/>
               </Route>
             </Switch>
           </Template2>
@@ -36,17 +36,17 @@ function App() {
           <Template1>
             <Switch>
               <Route path='/Login'>
-                 <Login/>
+                <Login/>
               </Route>
               <Route path='/registro'>
-                 <Registro/>
+                <Registro/>
               </Route>
             </Switch>
           </Template1>
         </Route>
         <Route path={['/*']}>
           <Template3>
-             <Switch>
+            <Switch>
               <Route path = '/'>
                 <Index/>
               </Route>

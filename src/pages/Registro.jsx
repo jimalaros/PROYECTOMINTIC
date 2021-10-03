@@ -169,6 +169,9 @@ class Registro extends Component {
             <div className="createAccount">
               <button type="submit">Create Account</button>
               <small>Already Have an Account?</small>
+              <div className="my-3 ">
+                <span >No tienes cuenta? <a href="Login" className='text-secondary'>Login</a></span>
+              </div>
             </div>
           </form>
         </div>
