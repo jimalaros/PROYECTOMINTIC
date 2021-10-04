@@ -1,17 +1,23 @@
 import { Link } from 'react-router-dom';
-import hamburguesa from 'media/hamburguesa.png';
-import pizza from 'media/pizza.png';
 
-function CardMenu({ nombre, imagen }) {
+
+function CardMenu({ nombre, imagen, precio, botoncompra }) {
   return (
     <li className='breedCard'>
       <Link to='/rhodesian'>
         <div className='contenedorImagen'>
-          <img src={hamburguesa} alt={hamburguesa} />
-          <img src={pizza} alt={pizza} />
+          <img src={imagen} alt={nombre} />
+         </div>
+         </Link> 
+        <div>
+        <span className='breedTitle'>{nombre}</span>
+           <h3>  {precio} </h3>
         </div>
-      </Link>
-      <span className='breedTitle'>{nombre}</span>
+
+        <li>
+          <button className='secondaryButton'> <img src={botoncompra} alt='Comprar'/> </button>
+        </li>
+
     </li>
   );
 }
