@@ -1,4 +1,6 @@
 import logo from 'media/logo.png';
+import carritocompra from 'media/boton_menu_home.png';
+
 
 const Navbar = () => {
   return (
@@ -23,6 +25,11 @@ const Navbar = () => {
             <li class="nav-item">
               <a class="nav-link" href="Login">Iniciar sesión</a>
             </li>
+            <li class="nav-itemcompra">
+              <a class="nav-link" href="Login"> <img src={carritocompra} alt="carritocompra" width='50' /></a>
+            </li>
+
+
           </ul>
         </div>
       </div>

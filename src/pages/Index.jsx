@@ -17,6 +17,7 @@ import botoncompra from 'media/botoncompra.png';
 
 
 
+
 const index = () => {
     return (
         <><div className= 'Slidehome'>
@@ -53,7 +54,12 @@ const index = () => {
 
                     </ul>
 
-                    {/*<div className='fondoImagen'> <img src={fondomenu} alt="fondomenu" />  </div>*/}
+                    <div className='botonregistrohome login p-5' > 
+                    <div className=''>
+                        <h2 className='fw-bold text-center'>¿AÚN NO TIENES CUENTA?  </h2> 
+                    </div>
+                    
+                    </div>
             </div>
                 </section></></>
     )
