@@ -13,6 +13,8 @@ import salchipapa from 'media/salchipapa.png';
 import fondomenu from 'media/fondomenu.png';
 import titulomenu from 'media/titulomenu.png';
 import botoncompra from 'media/botoncompra.png';
+import botonregistro from 'media/botonregistro.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -55,8 +57,9 @@ const index = () => {
                     </ul>
 
                     <div className='botonregistrohome login p-5' > 
-                    <div className=''>
-                        <h2 className='fw-bold text-center'>¿AÚN NO TIENES CUENTA?  </h2> 
+                    <div className='d-flex justify-content-between'>
+                        
+                        <h2 className='fw-bold text-center flex me-5'>¿AÚN NO TIENES CUENTA? </h2>   <Link to='Registro'><img src={botonregistro}></img></Link> 
                     </div>
                     
                     </div>
