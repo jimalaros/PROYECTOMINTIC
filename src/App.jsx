@@ -9,7 +9,7 @@ import Compras from 'pages/usuarios/Compras';
 import Index from 'pages/Index';
 import Login from 'pages/Login';
 import Registro from 'pages/Registro';
-import 'node_modules/bootstrap/dist/js/bootstrap.bundle.min';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import 'styles/styles.css';
@@ -30,7 +30,19 @@ function App() {
               </Route>
             </Switch>
           </Template2>
-        </Route>  
+        </Route>
+        <Route path= {['/usuarios/SesionU', '/usuarios/Compras']}>
+          <Template4>
+            <Switch>
+              <Route path = '/usuarios/SesionU'>
+              <SesionU/>
+              </Route>
+              <Route path = '/usuarios/Compras'>
+              <Compras/>
+              </Route>
+            </Switch>
+          </Template4>
+        </Route>   
         <Route path= {['/Login', '/Registro']}>
           <Template1>
             <Switch>
@@ -52,18 +64,6 @@ function App() {
             </Switch>
           </Template3>
         </Route>
-        <Route path= {['/usuarios/SesionU', '/usuarios/Compras']}>
-          <Template4>
-            <Switch>
-              <Route path = '/usuarios/SesionU'>
-              <SesionU/>
-              </Route>
-              <Route path = '/usuarios/Compras'>
-              <Compras/>
-              </Route>
-            </Switch>
-          </Template4>
-        </Route>  
       </Switch>
     </Router>
     </div>
