@@ -1,13 +1,15 @@
 import Template1 from 'layouts/Template1';
 import Template2 from 'layouts/Template2';
 import Template3 from 'layouts/Template3';
-import Admin from 'pages/admin/Index';
-import Usuarios from 'pages/admin/Usuarios';
-import Ventas from 'pages/admin/Ventas';
+import Template4 from 'layouts/Template4';
+import Principal from 'pages/admin/Principal';
+import Ordenes from 'pages/admin/Ordenes';
+import SesionU from 'pages/usuarios/SesionU';
+import Compras from 'pages/usuarios/Compras';
 import Index from 'pages/Index';
 import Login from 'pages/Login';
 import Registro from 'pages/Registro';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'node_modules/bootstrap/dist/js/bootstrap.bundle.min';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import 'styles/styles.css';
@@ -17,17 +19,14 @@ function App() {
     <div className='App'>
     <Router>
       <Switch>
-        <Route path= {['/admin', '/admin/Usuarios', '/admin/Ventas']}>
+        <Route path= {['/admin/Principal', '/admin/Ordenes']}>
           <Template2>
             <Switch>
-              <Route path = '/admin/Usuarios'>
-              <Usuarios/>
+            <Route path = '/admin/Principal'>
+              <Principal/>
               </Route>
-              <Route path = '/admin/Ventas'>
-              <Ventas/>
-              </Route>
-              <Route path='/admin'>
-              <Admin/>
+              <Route path = '/admin/Ordenes'>
+              <Ordenes/>
               </Route>
             </Switch>
           </Template2>
@@ -38,7 +37,7 @@ function App() {
               <Route path='/Login'>
                 <Login/>
               </Route>
-              <Route path='/registro'>
+              <Route path='/Registro'>
                 <Registro/>
               </Route>
             </Switch>
@@ -53,10 +52,22 @@ function App() {
             </Switch>
           </Template3>
         </Route>
+        <Route path= {['/usuarios/SesionU', '/usuarios/Compras']}>
+          <Template4>
+            <Switch>
+              <Route path = '/usuarios/SesionU'>
+              <SesionU/>
+              </Route>
+              <Route path = '/usuarios/Compras'>
+              <Compras/>
+              </Route>
+            </Switch>
+          </Template4>
+        </Route>  
       </Switch>
     </Router>
     </div>
-  )
+  );
 };
 
 export default App;

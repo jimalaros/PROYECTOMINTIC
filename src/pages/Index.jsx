@@ -41,7 +41,7 @@ const index = () => {
 
             }} >
 
-             
+            
                     <ul className='breedCardContainer breedTitle'>
 
                         <CardMenu nombre='Hamburguesa doble' imagen={hamburguesa} precio='$12.000' botoncompra={botoncompra}/>
@@ -59,7 +59,7 @@ const index = () => {
                     <div className='botonregistrohome login p-5' > 
                     <div className='d-flex justify-content-between'>
                         
-                        <h2 className='fw-bold text-center flex me-5'>¿AÚN NO TIENES CUENTA? </h2>   <Link to='Registro'><img src={botonregistro}></img></Link> 
+                        <h2 className='fw-bold text-center flex me-5'>¿AÚN NO TIENES CUENTA? </h2>   <Link to='Registro'><img src={botonregistro} alt="botonregistro"></img></Link> 
                     </div>
                     
                     </div>

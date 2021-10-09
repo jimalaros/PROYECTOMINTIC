@@ -1,17 +1,17 @@
 import React from 'react';
 import Navbar from 'components/Navbar';
-import SidebarAdmin from 'components/SidebarAdmin';
+import SidebarUser from 'components/SidebarUser';
 import Footer from 'components/Footer';
 
-const Template2 = ({children}) => {
+const Template4 = ({children}) => {
    return (
       <div>
          <Navbar/>
-         <SidebarAdmin/>
+         <SidebarUser/>
          <main>{children}</main>
          <Footer/>
       </div>
    );
 };
 
-export default Template2;
+export default Template4;

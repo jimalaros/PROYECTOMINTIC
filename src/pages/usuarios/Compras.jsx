@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Index = () => {
+const Compras = () => {
     return (
         <div>
             
@@ -8,4 +8,5 @@ const Index = () => {
     )
 }
 
-export default Index
+export default Compras;
+
