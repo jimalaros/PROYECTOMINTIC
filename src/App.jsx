@@ -7,6 +7,7 @@ import Ventas from 'pages/admin/Ventas';
 import Index from 'pages/Index';
 import Login from 'pages/Login';
 import Registro from 'pages/Registro';
+import Compra from 'pages/Compra';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -44,9 +45,12 @@ function App() {
             </Switch>
           </Template1>
         </Route>
-        <Route path={['/*']}>
+        <Route path={['/*','/Compra']}>
           <Template3>
             <Switch>
+              <Route path = '/Compra'>
+                <Compra/>
+              </Route>
               <Route path = '/'>
                 <Index/>
               </Route>
