@@ -80,6 +80,12 @@ margin-left: 20vh;
   height: 70px;
 }
 
+.logo2 {
+  height: 60px;
+  margin:auto;
+	text-align:center;
+}
+
 .nav-itemcompra {
   cursor: pointer;
   
