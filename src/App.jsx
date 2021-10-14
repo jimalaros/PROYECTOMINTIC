@@ -5,7 +5,6 @@ import Template4 from 'layouts/Template4';
 import Principal from 'pages/admin/Principal';
 import Ordenes from 'pages/admin/Ordenes';
 import SesionU from 'pages/usuarios/SesionU';
-import Compras from 'pages/usuarios/Compras';
 import Index from 'pages/Index';
 import Login from 'pages/Login';
 import Registro from 'pages/Registro';
@@ -31,14 +30,11 @@ function App() {
             </Switch>
           </Template2>
         </Route>
-        <Route path= {['/usuarios/SesionU', '/usuarios/Compras']}>
+        <Route path= {['/usuarios/SesionU']}>
           <Template4>
             <Switch>
               <Route path = '/usuarios/SesionU'>
               <SesionU/>
-              </Route>
-              <Route path = '/usuarios/Compras'>
-              <Compras/>
               </Route>
             </Switch>
           </Template4>

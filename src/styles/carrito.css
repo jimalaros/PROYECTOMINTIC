@@ -1,0 +1,135 @@
+.Superior{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.Superior .elementos{
+    display: inline-block;
+}
+
+.Movement{
+    float: right;
+    color: #ffffff;
+    background-color: black;
+    height: 40px;
+    width: 400px;
+    padding-left: 5vh;
+}
+
+.elementos a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 15px 50px;
+    display: block;
+}
+.elementos a:hover{
+    background-color: rgb(253, 167, 6);
+    height: 80px;
+    width: 400px;
+}
+
+
+h1,
+h2,
+h3 {
+    margin: 0.5rem 0;
+    color: black;
+}
+h1 {
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 1.2rem;
+}
+h3 {
+    font-size: 1rem;
+}
+a {
+    text-decoration: none;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-content: center;
+    justify-content: center;
+}
+.col-1 {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+.block {
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+.text-right {
+    text-align: right;
+}
+.small{
+   max-width: 20rem;
+    display: cover;
+    align-content: center;
+    margin-bottom: 20px;
+    margin-left: 40vh;
+}
+
+img.small {
+    max-height: 10rem;
+    object-fit: cover;
+    width: 50%;
+}
+
+button {
+    font-size: 0.8rem;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem #404040 solid;
+    background-color: black;
+    color: #ffffff;
+    font-weight: bold;
+    width: 30%;
+    cursor: pointer;
+    margin-bottom: 10vh;
+    margin-left: 45vh;
+}
+button.add {
+    flex-shrink: 2;
+    flex-basis: 1;
+    background-color: rgb(216, 102, 63);
+    font-weight: bold;
+    width: 5vh;
+    margin: 0;
+    justify-content: space-between;
+}
+button.remove {
+    background-color: rgb(165,165,165);
+    color: #ffffff;
+    font-weight: bold;
+    width: 5vh;
+    margin: 0;
+    justify-content: space-between;
+}
+button.badge {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    width: 1.5rem;
+}
+.Productos{
+    text-align: center;
+}
+.Precios{
+    text-align: center;
+}
+
+.checkout {
+    width: 100vh;
+    padding-right: 30vh ;
+}

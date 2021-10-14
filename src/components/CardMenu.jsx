@@ -15,7 +15,7 @@ function CardMenu({ nombre, imagen, precio, botoncompra }) {
         </div>
 
         <li>
-          <button className='secondaryButton'> <img src={botoncompra} alt='Comprar'/> </button>
+          <a href="/Login">< button className='secondaryButton'> <img src={botoncompra} alt='Comprar'/> </button></a>
         </li>
 
     </li>
