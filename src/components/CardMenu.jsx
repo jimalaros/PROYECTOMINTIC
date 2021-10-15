@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import carritoicon from '../media/carritoicon.png';
+
 
 
 function CardMenu({ nombre, imagen, precio, botoncompra }) {
@@ -15,7 +17,7 @@ function CardMenu({ nombre, imagen, precio, botoncompra }) {
         </div>
 
         <li>
-          <a href="/Login">< button className='secondaryButton'> <img src={botoncompra} alt='Comprar'/> </button></a>
+          <a href="/Login">< button className='secondaryButton'> Comprar <img className='carritoicon' src={carritoicon} alt='Comprar'/> </button></a>
         </li>
 
     </li>
