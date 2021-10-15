@@ -1,5 +1,6 @@
 import React from 'react';
 import fondo from 'media/logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
     <div className="container">
       <div class="logo2">
-        <img src={fondo} alt="fondo" width='30%' />
+      <Link to='/Index'><img src={fondo} alt="fondo" width='30%' /></Link> 
       </div>
     </div>
   </nav>

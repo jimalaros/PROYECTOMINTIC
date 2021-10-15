@@ -12,7 +12,6 @@ import tacos from 'media/tacos.png';
 import salchipapa from 'media/salchipapa.png';
 import fondomenu from 'media/fondomenu.png';
 import titulomenu from 'media/titulomenu.png';
-import botoncompra from 'media/botoncompra.png';
 import botonregistro from 'media/botonregistro.png';
 import { Link } from 'react-router-dom';
 
