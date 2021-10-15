@@ -76,7 +76,7 @@ a {
     display: cover;
     align-content: center;
     margin-bottom: 20px;
-    margin-left: 40vh;
+    margin-left: 50vh;
 }
 
 img.small {
@@ -121,6 +121,7 @@ button.badge {
     border: none;
     color: #ffffff;
     width: 1.5rem;
+    margin-left: 20vh;
 }
 .Productos{
     text-align: center;

@@ -119,6 +119,7 @@ light green: #A3C4BC
     font-weight: lighter;
     letter-spacing: 1px;
     margin-bottom: 0.25em;
+    margin-left: 0;
   }
   
   .createAccount button:hover {

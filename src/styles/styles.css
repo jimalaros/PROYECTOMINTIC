@@ -106,15 +106,17 @@ margin-left: 20vh;
 
 .secondaryButton {
   border: 0px;
+  background-color:rgb(216, 102, 63);
   padding: 5px 10px;
   border-radius: 10px;
   font-weight: bolder;
-  transform: scale(0.8) 
+  transform: scale(1.5);
+  margin-left: 0; 
 }
 
 .secondaryButton:hover {
   cursor: pointer;
-  transform: scale(0.7);
+  transform: scale(1.8);
   
 }
 

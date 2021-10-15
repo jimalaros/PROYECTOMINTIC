@@ -44,15 +44,15 @@ const index = () => {
             
                     <ul className='breedCardContainer breedTitle'>
 
-                        <CardMenu nombre='Hamburguesa doble' imagen={hamburguesa} precio='$12.000' botoncompra={botoncompra}/>
-                        <CardMenu nombre='Pizza mediana' imagen={pizza} precio='$25.000' botoncompra={botoncompra}/>
-                        <CardMenu nombre='Burro especial' imagen={burro} precio='$10.500' botoncompra={botoncompra}/>
-                        <CardMenu nombre='Sandwich mixto' imagen={sandwich} precio='$11.000' botoncompra={botoncompra}/>
-                        <CardMenu nombre='Nuggets combo' imagen={nuggets} precio='$16.500' botoncompra={botoncompra}/>
-                        <CardMenu nombre='Pinchos combo' imagen={pinchos} precio='$15.000' botoncompra={botoncompra}/>
-                        <CardMenu nombre='Empanada combo' imagen={empanada} precio='$12.000' botoncompra={botoncompra}/>
-                        <CardMenu nombre='Tacos x5' imagen={tacos} precio='$18.000' botoncompra={botoncompra}/>
-                        <CardMenu nombre='Salchipapas' imagen={salchipapa} precio='$11.000' botoncompra={botoncompra}/>
+                        <CardMenu nombre='Hamburguesa doble' imagen={hamburguesa} precio='$12.000'/>
+                        <CardMenu nombre='Pizza mediana' imagen={pizza} precio='$25.000'/>
+                        <CardMenu nombre='Burro especial' imagen={burro} precio='$10.500'/>
+                        <CardMenu nombre='Sandwich mixto' imagen={sandwich} precio='$11.000'/>
+                        <CardMenu nombre='Nuggets combo' imagen={nuggets} precio='$16.500'/>
+                        <CardMenu nombre='Pinchos combo' imagen={pinchos} precio='$15.000'/>
+                        <CardMenu nombre='Empanada combo' imagen={empanada} precio='$12.000'/>
+                        <CardMenu nombre='Tacos x5' imagen={tacos} precio='$18.000'/>
+                        <CardMenu nombre='Salchipapas' imagen={salchipapa} precio='$11.000'/>
 
                     </ul>
 
