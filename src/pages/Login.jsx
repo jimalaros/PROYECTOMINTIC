@@ -1,6 +1,7 @@
 import React from 'react'
 import fondo from 'media/logo.png'
 import google from 'media/google.png'
+import { Link } from 'react-router-dom';
 import 'styles/Login.css'
 
 const Login = () => {
@@ -20,7 +21,7 @@ const Login = () => {
                                 <input type="password" className='form-control' placeholder='Password' required/>
                             </div >
                             <div className='d-grid mb-4'>
-                                <input type="button" className='btn btn-primary' Value='Iniciar Sesion'/>
+                                <Link to='./usuarios/SesionU'><input type="button" className='btn btn-primary' Value='Iniciar Sesion'/></Link>
                             </div>
                         </form>
                         <div>
